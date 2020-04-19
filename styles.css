@@ -8,7 +8,8 @@ body {
 }
 
 #landing-area {
-  background-image: url('images/landing-img.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.90)),
+    url('images/landing-img.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
