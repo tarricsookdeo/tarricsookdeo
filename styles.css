@@ -58,9 +58,10 @@ body {
 }
 
 /* NAVIGATION BAR STYLES */
+
 nav {
   font-size: 25px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 nav ul {
@@ -75,4 +76,16 @@ nav ul > li {
 nav ul > li > a {
   text-decoration: none;
   color: whitesmoke;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* ABOUT ME SECTION STYLES */
+
+#about-me {
+  height: 100vh;
 }
