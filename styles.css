@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.6;
+}
+
+#landing-area {
+  background-image: url('images/landing-img.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  color: aliceblue;
+}
+
+#landing-area h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+#landing-area span {
+  color: red;
+}
+
+#landing-area h2 {
+  font-size: 35px;
+  font-weight: normal;
+}
+
+#landing-area .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: aliceblue;
+  border: aliceblue 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
