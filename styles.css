@@ -41,10 +41,19 @@ body {
 }
 
 .logos a > i {
-  width: 30px;
   margin-top: 20px;
   padding: 0 20px;
-  color: darkgray;
+  color: honeydew;
+}
+
+#header-btn {
+  color: red;
+  text-decoration: none;
+  margin-top: 60px;
+  font-size: 22px;
+  border: red 1px solid;
+  padding: 10px 60px;
+  border-radius: 10px;
 }
 
 /* NAVIGATION BAR STYLES */
