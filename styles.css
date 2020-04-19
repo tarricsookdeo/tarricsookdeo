@@ -8,7 +8,7 @@ body {
 }
 
 #landing-area {
-  background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.90)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.1)),
     url('images/landing-img.jpg');
   height: 100vh;
   background-size: cover;
@@ -44,4 +44,10 @@ body {
   padding: 10px 20px;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+.logos a > img {
+  width: 30px;
+  margin-top: 20px;
+  padding: 0 10px;
 }
