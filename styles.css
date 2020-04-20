@@ -172,6 +172,32 @@ nav ul > li > a:hover {
   margin-top: 26px;
 }
 
+/* PROJECTS STYLES */
+#projects h3 {
+  text-align: center;
+}
+
+.projects-section {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.project-item {
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20px;
+  width: 300px;
+}
+.project-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-item img {
+  width: 300px;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
   nav {
