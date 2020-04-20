@@ -151,6 +151,15 @@ nav ul > li > a:hover {
   width: 50px;
 }
 
+#framework-logos {
+  justify-content: center;
+  display: flex;
+}
+
+#framework-logos img {
+  width: 50px;
+}
+
 .item {
   text-align: center;
   margin: 0 25px;
