@@ -78,6 +78,10 @@ nav ul > li > a {
   color: whitesmoke;
 }
 
+nav ul > li > a:hover {
+  color: red;
+}
+
 .sticky {
   position: fixed;
   top: 0;
