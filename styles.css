@@ -88,8 +88,24 @@ nav ul > li > a:hover {
   width: 100%;
 }
 
+
 /* ABOUT ME SECTION STYLES */
 
 #about-me {
   height: 100vh;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 750px) {
+  nav {
+    font-size: 20px;
+  }
+
+  #landing-area h1 {
+    font-size: 45px;
+  }
+
+  #landing-area h2 {
+    font-size: 25px;
+  }
 }
