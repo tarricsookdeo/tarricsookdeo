@@ -124,6 +124,38 @@ nav ul > li > a:hover {
   margin-left: 50px;
 }
 
+/* SKILLS SECTION STYLES */
+#skills {
+  height: 50vh;
+}
+
+#skills h1 {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#skills h2 {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#programing-languages-logos {
+  justify-content: center;
+  display: flex;
+}
+
+#programing-languages-logos img {
+  width: 50px;
+}
+
+.item {
+  text-align: center;
+  margin: 0 25px;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
   nav {
