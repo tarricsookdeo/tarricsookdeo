@@ -44,7 +44,7 @@ body {
 .logos a > i {
   margin-top: 20px;
   padding: 0 20px;
-  color: honeydew;
+  color: white;
 }
 
 #header-btn {
@@ -55,6 +55,10 @@ body {
   border: red 1px solid;
   padding: 10px 60px;
   border-radius: 10px;
+}
+
+.fa-linkedin:hover {
+  color: #4c6ef5;
 }
 
 /* NAVIGATION BAR STYLES */
@@ -91,7 +95,8 @@ nav ul > li > a:hover {
 /* ABOUT ME SECTION STYLES */
 
 #about-me {
-  height: 100vh;
+  height: 50vh;
+  margin: 0 100px;
 }
 
 #about-me h1 {
@@ -102,15 +107,25 @@ nav ul > li > a:hover {
 
 #about-me-content {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 #about-me-content img {
-  width: 500px;
-  border-radius: 250px;
+  width: 300px;
+  border-radius: 150px;
+  margin-right: 50px;
+}
+
+#about-me-content p {
+  width: 40%;
+  text-align: justify;
+  margin-left: 50px;
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   nav {
     font-size: 20px;
   }
@@ -121,5 +136,25 @@ nav ul > li > a:hover {
 
   #landing-area h2 {
     font-size: 25px;
+  }
+
+  #about-me {
+    height: 50vh;
+    margin: 0 15px;
+  }
+
+  #about-me-content {
+    flex-direction: column;
+  }
+
+  #about-me-content img {
+    margin: 0;
+  }
+
+  #about-me-content p {
+    width: 100%;
+    text-align: justify;
+    margin-left: 0;
+    margin-top: 5px;
   }
 }
